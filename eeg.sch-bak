@@ -1047,23 +1047,23 @@ Wire Wire Line
 	2050 14250 1950 14250
 Wire Wire Line
 	2050 14150 1950 14150
-Text Label 1950 14250 0    12   ~ 0
+Text Label 2700 14500 0    12   ~ 0
 +2.5V
-Text Label 1950 14350 0    12   ~ 0
+Text Label 1950 14350 2    12   ~ 0
 +2.5V
-Text Label 1950 14450 0    12   ~ 0
+Text Label 2700 14300 0    12   ~ 0
 +2.5V
 Text Label 1950 14550 0    12   ~ 0
 +2.5V
-Text Label 1950 14650 0    12   ~ 0
+Text Label 2700 14700 0    12   ~ 0
 +2.5V
-Text Label 1950 14750 0    12   ~ 0
+Text Label 1950 14750 2    12   ~ 0
 +2.5V
-Text Label 1950 14850 0    12   ~ 0
+Text Label 2700 14900 0    12   ~ 0
 +2.5V
 Text Label 1950 14950 0    12   ~ 0
 +2.5V
-Text Label 1950 15050 0    12   ~ 0
+Text Label 2700 15100 0    12   ~ 0
 +2.5V
 Wire Wire Line
 	2000 12650 1900 12650
@@ -1107,19 +1107,19 @@ Wire Wire Line
 	2000 13600 1950 13600
 Text Label 1900 12650 0    12   ~ 0
 +2.5V
-Text Label 2700 12700 0    12   ~ 0
+Text Label 2700 12800 0    12   ~ 0
 +2.5V
 Text Label 1900 12850 0    12   ~ 0
 +2.5V
-Text Label 2700 12900 0    12   ~ 0
+Text Label 2700 13000 0    12   ~ 0
 +2.5V
 Text Label 1900 13050 0    12   ~ 0
 +2.5V
-Text Label 2700 13100 0    12   ~ 0
+Text Label 2700 13200 0    12   ~ 0
 +2.5V
 Text Label 1900 13250 0    12   ~ 0
 +2.5V
-Text Label 2700 13300 0    12   ~ 0
+Text Label 2700 13400 0    12   ~ 0
 +2.5V
 Text Label 1900 13450 0    12   ~ 0
 +2.5V
@@ -3704,19 +3704,19 @@ Text Label 1900 13550 2    12   ~ 0
 -2.5V
 Text Label 2700 13500 0    12   ~ 0
 -2.5V
-Text Label 2700 13400 0    12   ~ 0
+Text Label 2700 12700 0    12   ~ 0
 -2.5V
 Text Label 1900 13350 2    12   ~ 0
 -2.5V
-Text Label 2700 13200 0    12   ~ 0
+Text Label 2700 13300 0    12   ~ 0
 -2.5V
 Text Label 1900 13150 2    12   ~ 0
 -2.5V
-Text Label 2700 13000 0    12   ~ 0
+Text Label 2700 13100 0    12   ~ 0
 -2.5V
 Text Label 1900 12950 2    12   ~ 0
 -2.5V
-Text Label 2700 12800 0    12   ~ 0
+Text Label 2700 12900 0    12   ~ 0
 -2.5V
 Text Label 1900 12750 2    12   ~ 0
 -2.5V
@@ -3760,64 +3760,64 @@ Text Label 1950 13000 2    12   ~ 0
 GND
 Text Label 1950 12800 2    12   ~ 0
 GND
-Text Label 2700 15100 0    12   ~ 0
+Text Label 2700 14200 0    12   ~ 0
 -2.5V
 Text Label 2700 15000 0    12   ~ 0
 -2.5V
-Text Label 2700 14900 0    12   ~ 0
+Text Label 2700 14400 0    12   ~ 0
 -2.5V
 Text Label 2700 14800 0    12   ~ 0
 -2.5V
-Text Label 2700 14700 0    12   ~ 0
--2.5V
 Text Label 2700 14600 0    12   ~ 0
 -2.5V
-Text Label 2700 14500 0    12   ~ 0
+Text Label 1950 15050 2    12   ~ 0
 -2.5V
-Text Label 2700 14400 0    12   ~ 0
+Text Label 1950 14850 2    12   ~ 0
 -2.5V
-Text Label 2700 14300 0    12   ~ 0
+Text Label 1950 14650 2    12   ~ 0
 -2.5V
-Text Label 2700 14200 0    12   ~ 0
+Text Label 1950 14450 2    12   ~ 0
+-2.5V
+Text Label 1950 14250 2    12   ~ 0
 -2.5V
 Text Label 2000 14200 2    12   ~ 0
 CIN4N
-Text Label 2000 14300 2    12   ~ 0
-CIN4P
 Text Label 2000 14400 2    12   ~ 0
-CIN3N
-Text Label 2000 14500 2    12   ~ 0
-CIN3P
+CIN4P
 Text Label 2000 14600 2    12   ~ 0
-CIN2N
-Text Label 2000 14700 2    12   ~ 0
-CIN2P
+CIN3N
 Text Label 2000 14800 2    12   ~ 0
-CIN1N
-Text Label 2000 14900 2    12   ~ 0
-CIN1P
+CIN3P
 Text Label 2000 15000 2    12   ~ 0
-CSRB1
-Text Label 2000 15100 2    12   ~ 0
-CSRB2
+CIN2N
 Text Label 2700 15050 0    12   ~ 0
-GND
+CIN2P
+Text Label 2700 14850 0    12   ~ 0
+CIN1N
+Text Label 2700 14650 0    12   ~ 0
+CIN1P
+Text Label 2700 14450 0    12   ~ 0
+CSRB1
+Text Label 2700 14250 0    12   ~ 0
+CSRB2
 Text Label 2700 14950 0    12   ~ 0
 GND
-Text Label 2700 14850 0    12   ~ 0
-GND
-Text Label 2700 14750 0    12   ~ 0
-GND
-Text Label 2700 14650 0    12   ~ 0
-GND
-Text Label 2700 14550 0    12   ~ 0
-GND
-Text Label 2700 14450 0    12   ~ 0
+Text Label 2700 14150 0    12   ~ 0
 GND
 Text Label 2700 14350 0    12   ~ 0
 GND
-Text Label 2700 14250 0    12   ~ 0
+Text Label 2700 14750 0    12   ~ 0
 GND
-Text Label 2700 14150 0    12   ~ 0
+Text Label 2700 14550 0    12   ~ 0
+GND
+Text Label 2000 15100 0    12   ~ 0
+GND
+Text Label 2000 14900 0    12   ~ 0
+GND
+Text Label 2000 14700 0    12   ~ 0
+GND
+Text Label 2000 14500 0    12   ~ 0
+GND
+Text Label 2000 14300 0    12   ~ 0
 GND
 $EndSCHEMATC
