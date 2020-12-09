@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name EEG)(type Github)(uri https://github.com/aliozcanunal/git_repo/tree/master/ADS1299-KICAD/ADS1299)(options "")(descr ""))
+  (lib (name EEGRN)(type KiCad)(uri /home/aozcan/Desktop/RN4678-V_RM100)(options "")(descr ""))
 )
