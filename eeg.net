@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/aozcan/Desktop/EEG- 8CHANNEL/eeg.sch")
-    (date "Thu 10 Dec 2020 05:32:07 PM +03")
+    (date "Thu 10 Dec 2020 08:42:16 PM +03")
     (tool "Eeschema 5.1.8-db9833491~88~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -133,7 +133,7 @@
       (tstamp 5F550944))
     (comp (ref Y1)
       (value 16.00Mhz)
-      (footprint Crystal:Crystal_HC49-4H_Vertical)
+      (footprint Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm)
       (datasheet ~)
       (libsource (lib Device) (part Crystal) (description "Two pin crystal"))
       (sheetpath (names /) (tstamps /))
@@ -600,7 +600,7 @@
       (tstamp 5F63DF93))
     (comp (ref HC736)
       (value 2.048mhz)
-      (footprint Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm)
+      (footprint ERA-3A:OSCCC500X320X150N)
       (datasheet http://www.abracon.com/Oscillators/ASV.pdf)
       (libsource (lib Oscillator) (part ASE-xxxMHz) (description "3.3V CMOS SMD Crystal Clock Oscillator, Abracon"))
       (sheetpath (names /) (tstamps /))
