@@ -1,4 +1,11 @@
-18986420071949131
+18992854005955380
+06033D105KAT2A
+CAPC1608X94N
+
+
+0
+2
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2271,6 +2278,13 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+C0402C104K4RACTU
+CAPC1005X55N
+
+
 0
 2
 2
@@ -50728,6 +50742,13 @@ RESC1608X55N
 0
 2
 2
+ERA-6AEB105V
+RESC2012X60N
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -77755,6 +77776,13 @@ Logo WEEE
 0
 0
 0
+TCA1C106M8R
+RESC3216X65N
+
+
+0
+2
+2
 TPS60403DBVT
 SOT95P280X145-5N
 
