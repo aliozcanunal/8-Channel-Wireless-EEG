@@ -446,11 +446,11 @@ X IN4N 9 -1200 -200 197 R 39 39 0 1 I
 ENDDRAW
 ENDDEF
 #
-# eeg-rescue_DATA-Data10Pin
+# eeg-rescue_DATA-Data10Pin-eeg-rescue
 #
-DEF eeg-rescue_DATA-Data10Pin U 0 40 Y Y 1 F N
+DEF eeg-rescue_DATA-Data10Pin-eeg-rescue U 0 40 Y Y 1 F N
 F0 "U" -100 100 12 H V C CNN
-F1 "eeg-rescue_DATA-Data10Pin" -100 50 12 H V C CNN
+F1 "eeg-rescue_DATA-Data10Pin-eeg-rescue" -100 50 12 H V C CNN
 F2 "Connector_PinSocket_1.27mm:PinSocket_1x10_P1.27mm_Vertical" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -468,11 +468,11 @@ X GND 9 -250 -450 100 R 12 12 0 0 W
 ENDDRAW
 ENDDEF
 #
-# eeg-rescue_Electrode-Electrode-eeg-rescue
+# eeg-rescue_Electrode-Electrode-eeg-rescue-eeg-rescue
 #
-DEF eeg-rescue_Electrode-Electrode-eeg-rescue U6 0 39 Y Y 1 F N
+DEF eeg-rescue_Electrode-Electrode-eeg-rescue-eeg-rescue U6 0 39 Y Y 1 F N
 F0 "U6" 675 1400 50 H V C CNN
-F1 "eeg-rescue_Electrode-Electrode-eeg-rescue" 650 1275 50 H V C CNN
+F1 "eeg-rescue_Electrode-Electrode-eeg-rescue-eeg-rescue" 650 1275 50 H V C CNN
 F2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" 1000 50 50 H I C CNN
 F3 "" 650 1275 50 H I C CNN
 DRAW
@@ -486,9 +486,9 @@ X -2.5V 14 400 450 118 R 20 20 0 0 W
 X +2.5V 15 400 400 118 R 20 20 0 0 W
 X -2.5V 16 400 350 118 R 20 20 0 0 W
 X +2.5V 17 400 300 118 R 20 20 0 0 W
-X -2.5V 18 400 250 118 R 20 20 0 0 W
-X +2.5V 19 400 200 118 R 20 20 0 0 W
-X -2.5V 2 400 1050 118 R 20 20 0 0 W
+X -2.5V 18 400 250 118 R 20 20 0 0 I
+X +2.5V 19 400 200 118 R 20 20 0 0 I
+X -2.5V 2 400 1050 118 R 20 20 0 0 I
 X -2.5V 20 400 150 118 R 20 20 0 0 W
 X CSRB2 21 1050 150 118 L 20 20 0 0 B
 X GND 22 1050 200 118 L 20 20 0 0 W
@@ -508,15 +508,15 @@ X GND 34 1050 800 118 L 20 20 0 0 W
 X CIN3N 35 1050 850 118 L 20 20 0 0 B
 X GND 36 1050 900 118 L 20 20 0 0 W
 X CIN4P 37 1050 950 118 L 20 20 0 0 B
-X GND 38 1050 1000 118 L 20 20 0 0 W
+X GND 38 1050 1000 118 L 20 20 0 0 P
 X CIN 39 1050 1050 118 L 20 20 0 0 B
 X -2.5V 4 400 950 118 R 20 20 0 0 W
 X GND 40 1050 1100 118 L 20 20 0 0 W
-X +2.5V 5 400 900 118 R 20 20 0 0 W
-X -2.5V 6 400 850 118 R 20 20 0 0 W
+X +2.5V 5 400 900 118 R 20 20 0 0 I
+X -2.5V 6 400 850 118 R 20 20 0 0 I
 X +2.5V 7 400 800 118 R 20 20 0 0 W
 X -2.5V 8 400 750 118 R 20 20 0 0 W
-X +2.5V 9 400 700 118 R 20 20 0 0 W
+X +2.5V 9 400 700 118 R 20 20 0 0 w
 ENDDRAW
 ENDDEF
 #
