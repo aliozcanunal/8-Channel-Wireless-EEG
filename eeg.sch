@@ -209,136 +209,43 @@ $EndComp
 Connection ~ 1500 11100
 Wire Wire Line
 	1300 11100 1000 11100
-Text Label 1760 13650 0    12   ~ 0
+Text Label 1850 13650 2    12   ~ 0
 +2.5V
-$Comp
-L eeg-rescue:Electrode2-Electrode2 U8
-U 1 1 5F479367
-P 3000 12550
-F 0 "U8" H 2175 11685 50  0000 C CNN
-F 1 "Electrode1" H 2175 11594 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x20_P1.00mm_Vertical" H 2290 11560 50  0001 C CNN
-F 3 "" H 2180 11630 50  0001 C CNN
-	1    3000 12550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 13700 1800 13700
-Wire Wire Line
-	1850 13800 1800 13800
-Wire Wire Line
-	1850 13850 1750 13850
-Wire Wire Line
-	1850 13900 1800 13900
-Wire Wire Line
-	1850 13950 1750 13950
-Wire Wire Line
-	1850 14000 1800 14000
-Wire Wire Line
-	1850 14050 1750 14050
-Wire Wire Line
-	1850 14100 1800 14100
-Wire Wire Line
-	1850 14150 1750 14150
-Wire Wire Line
-	1850 14200 1800 14200
-Wire Wire Line
-	1850 14250 1750 14250
-Wire Wire Line
-	1850 14300 1800 14300
-Wire Wire Line
-	1850 14350 1750 14350
-Wire Wire Line
-	1850 14400 1800 14400
-Wire Wire Line
-	1850 14450 1750 14450
-Wire Wire Line
-	1850 14500 1800 14500
-Wire Wire Line
-	1850 14550 1750 14550
-Wire Wire Line
-	1850 14600 1800 14600
-Wire Wire Line
-	1850 13750 1750 13750
-Wire Wire Line
-	1850 13650 1750 13650
-Text Label 2500 14000 0    12   ~ 0
+Text Label 1850 13950 2    12   ~ 0
 +2.5V
-Text Label 1750 13850 2    12   ~ 0
+Text Label 1850 13750 2    12   ~ 0
 +2.5V
-Text Label 2500 13800 0    12   ~ 0
+Text Label 1850 13850 2    12   ~ 0
 +2.5V
-Text Label 1750 14050 0    12   ~ 0
+Text Label 1850 14050 2    12   ~ 0
 +2.5V
-Text Label 2500 14200 0    12   ~ 0
+Text Label 1850 14550 2    12   ~ 0
 +2.5V
-Text Label 1750 14250 2    12   ~ 0
+Text Label 1850 14150 2    12   ~ 0
 +2.5V
-Text Label 2500 14400 0    12   ~ 0
+Text Label 1850 14450 2    12   ~ 0
 +2.5V
-Text Label 1750 14450 0    12   ~ 0
+Text Label 1850 14250 2    12   ~ 0
 +2.5V
-Text Label 2500 14600 0    12   ~ 0
+Text Label 1850 14350 2    12   ~ 0
 +2.5V
-Wire Wire Line
-	1800 12150 1700 12150
-Wire Wire Line
-	1800 12250 1700 12250
-Wire Wire Line
-	1800 12350 1700 12350
-Wire Wire Line
-	1800 12450 1700 12450
-Wire Wire Line
-	1800 12550 1700 12550
-Wire Wire Line
-	1800 12650 1700 12650
-Wire Wire Line
-	1800 12750 1700 12750
-Wire Wire Line
-	1800 12850 1700 12850
-Wire Wire Line
-	1800 12950 1700 12950
-Wire Wire Line
-	1800 13050 1700 13050
-Wire Wire Line
-	1800 12200 1750 12200
-Wire Wire Line
-	1800 12300 1750 12300
-Wire Wire Line
-	1800 12400 1750 12400
-Wire Wire Line
-	1800 12500 1750 12500
-Wire Wire Line
-	1800 12600 1750 12600
-Wire Wire Line
-	1800 12700 1750 12700
-Wire Wire Line
-	1800 12800 1750 12800
-Wire Wire Line
-	1800 12900 1750 12900
-Wire Wire Line
-	1800 13000 1750 13000
-Wire Wire Line
-	1800 13100 1750 13100
-Text Label 1700 12150 0    12   ~ 0
+Text Label 1800 13050 2    12   ~ 0
 +2.5V
-Text Label 2500 12300 0    12   ~ 0
+Text Label 1800 12250 2    12   ~ 0
 +2.5V
-Text Label 1700 12350 0    12   ~ 0
+Text Label 1800 12950 2    12   ~ 0
 +2.5V
-Text Label 2500 12500 0    12   ~ 0
+Text Label 1800 12350 2    12   ~ 0
 +2.5V
-Text Label 1700 12550 0    12   ~ 0
+Text Label 1800 12850 2    12   ~ 0
 +2.5V
-Text Label 2500 12700 0    12   ~ 0
+Text Label 1800 12450 2    12   ~ 0
 +2.5V
-Text Label 1700 12750 0    12   ~ 0
+Text Label 1800 12750 2    12   ~ 0
 +2.5V
-Text Label 2500 12900 0    12   ~ 0
+Text Label 1800 12550 2    12   ~ 0
 +2.5V
-Text Label 1700 12950 0    12   ~ 0
-+2.5V
-Text Label 2500 13100 0    12   ~ 0
+Text Label 1800 12650 2    12   ~ 0
 +2.5V
 $Comp
 L Device:R_Small_US R6
@@ -573,7 +480,7 @@ Wire Wire Line
 	2700 6800 2950 6800
 Wire Wire Line
 	2700 7300 2950 7300
-Text Label 2700 6800 0    20   ~ 0
+Text Label 2700 6800 2    20   ~ 0
 CSRB1
 Text Label 2700 7300 0    20   ~ 0
 CSRB2
@@ -650,9 +557,9 @@ Wire Wire Line
 	2700 7850 2950 7850
 Wire Wire Line
 	2700 8350 2950 8350
-Text Label 2700 7850 0    20   ~ 0
+Text Label 2700 7850 2    20   ~ 0
 CIN1N
-Text Label 2700 8350 0    20   ~ 0
+Text Label 2700 8350 2    20   ~ 0
 CIN1P
 Text Label 3700 7850 0    20   ~ 0
 IN1N
@@ -1888,7 +1795,7 @@ Text GLabel 12900 6650 1    39   Output ~ 0
 SCLK
 Text GLabel 12800 6650 1    39   Input ~ 0
 MISO
-Text GLabel 12700 6500 1    39   Output ~ 0
+Text GLabel 12700 6650 1    39   Output ~ 0
 MOSI
 Text GLabel 12600 6650 1    39   Output ~ 0
 START
@@ -2038,13 +1945,13 @@ Text Label 12750 13150 0    12   ~ 0
 CLK
 Text Label 12750 13200 0    12   ~ 0
 START
-Text Label 12750 13250 0    12   ~ 0
+Text Label 12750 13250 2    12   ~ 0
 DIN
-Text Label 12750 13300 0    12   ~ 0
+Text Label 12750 13300 2    12   ~ 0
 DOUT
-Text Label 12750 13350 0    12   ~ 0
+Text Label 12750 13350 2    12   ~ 0
 CS
-Text Label 12750 13400 0    12   ~ 0
+Text Label 12750 13400 2    12   ~ 0
 SCLK
 Wire Wire Line
 	12750 13450 12750 13500
@@ -2636,21 +2543,13 @@ F 3 "" H 17750 9900 50  0001 C CNN
 	1    17750 9900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	16150 8750 16000 8750
-Wire Wire Line
-	16150 8350 16000 8350
-Text Label 16000 8750 2    20   ~ 0
-RN46_CTS
-Text Label 16000 8350 2    20   ~ 0
+Text Label 16150 8750 2    20   ~ 0
+RN46CTS
+Text Label 16150 8350 2    20   ~ 0
 RN46RTS
-Wire Wire Line
-	13900 8650 14100 8650
-Wire Wire Line
-	13900 8550 14100 8550
-Text Label 14100 8650 0    20   ~ 0
+Text Label 13900 8650 0    20   ~ 0
 USART6_TX
-Text Label 14100 8550 0    20   ~ 0
+Text Label 13900 8550 0    20   ~ 0
 USART6_RX
 Wire Wire Line
 	16150 7750 16000 7750
@@ -2766,76 +2665,45 @@ Wire Wire Line
 Connection ~ 18350 7600
 Wire Wire Line
 	18350 7600 18350 7150
-Wire Wire Line
-	2500 12200 2450 12200
-Wire Wire Line
-	2450 13100 2500 13100
-Wire Wire Line
-	2450 13000 2500 13000
-Wire Wire Line
-	2450 12900 2500 12900
-Wire Wire Line
-	2450 12800 2500 12800
-Wire Wire Line
-	2450 12700 2500 12700
-Wire Wire Line
-	2450 12600 2500 12600
-Wire Wire Line
-	2450 12500 2500 12500
-Wire Wire Line
-	2450 12400 2500 12400
-Wire Wire Line
-	2450 12300 2500 12300
-$Comp
-L eeg-rescue:Electrode-Electrode-eeg-rescue-eeg-rescue U61
-U 1 1 5F474806
-P 1400 13250
-F 0 "U61" H 2125 14575 50  0000 C CNN
-F 1 "Electrode2" H 2125 14484 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x20_P1.00mm_Vertical" H 2400 13300 50  0001 C CNN
-F 3 "" H 2050 14525 50  0001 C CNN
-	1    1400 13250
-	1    0    0    -1  
-$EndComp
-Text Label 1700 13050 2    12   ~ 0
+Text Label 1800 12800 2    12   ~ 0
 -2.5V
-Text Label 2500 13000 0    12   ~ 0
+Text Label 1800 12600 2    12   ~ 0
 -2.5V
-Text Label 2500 12200 0    12   ~ 0
+Text Label 1800 13100 2    12   ~ 0
 -2.5V
-Text Label 1700 12850 2    12   ~ 0
+Text Label 1800 12500 2    12   ~ 0
 -2.5V
-Text Label 2500 12800 0    12   ~ 0
+Text Label 1800 12700 2    12   ~ 0
 -2.5V
-Text Label 1700 12650 2    12   ~ 0
+Text Label 1800 12400 2    12   ~ 0
 -2.5V
-Text Label 2500 12600 0    12   ~ 0
+Text Label 1800 12900 2    12   ~ 0
 -2.5V
-Text Label 1700 12450 2    12   ~ 0
+Text Label 1800 12300 2    12   ~ 0
 -2.5V
-Text Label 2500 12400 0    12   ~ 0
+Text Label 1800 13000 2    12   ~ 0
 -2.5V
-Text Label 1700 12250 2    12   ~ 0
+Text Label 1800 12200 2    12   ~ 0
 -2.5V
-Text Label 1750 12200 2    12   ~ 0
+Text Label 2500 13650 0    12   ~ 0
 BIASINV
-Text Label 1750 12400 2    12   ~ 0
+Text Label 2500 13750 0    12   ~ 0
 CBIAS
-Text Label 1750 12600 2    12   ~ 0
+Text Label 2500 13850 0    12   ~ 0
 CIN8N
-Text Label 1750 12800 2    12   ~ 0
+Text Label 2500 13950 0    12   ~ 0
 CIN8P
-Text Label 1750 13000 2    12   ~ 0
+Text Label 2500 14050 0    12   ~ 0
 CIN7N
-Text Label 2450 13050 0    12   ~ 0
+Text Label 2500 14150 0    12   ~ 0
 CIN7P
-Text Label 2450 12850 0    12   ~ 0
+Text Label 2500 14250 0    12   ~ 0
 CIN6N
-Text Label 2450 12650 0    12   ~ 0
+Text Label 2500 14350 0    12   ~ 0
 CIN6P
-Text Label 2450 12450 0    12   ~ 0
+Text Label 2500 14450 0    12   ~ 0
 CIN5N
-Text Label 2450 12250 0    12   ~ 0
+Text Label 2500 14550 0    12   ~ 0
 CIN5P
 Text Label 2450 12150 0    12   ~ 0
 GND
@@ -2847,85 +2715,79 @@ Text Label 2450 12750 0    12   ~ 0
 GND
 Text Label 2450 12550 0    12   ~ 0
 GND
-Text Label 1750 13100 2    12   ~ 0
+Text Label 2450 13050 0    12   ~ 0
 GND
-Text Label 1750 12900 2    12   ~ 0
+Text Label 2450 12850 0    12   ~ 0
 GND
-Text Label 1750 12700 2    12   ~ 0
+Text Label 2450 12650 0    12   ~ 0
 GND
-Text Label 1750 12500 2    12   ~ 0
+Text Label 2450 12450 0    12   ~ 0
 GND
-Text Label 1750 12300 2    12   ~ 0
+Text Label 2450 12250 0    12   ~ 0
+GND
+Text Label 1850 13900 2    12   ~ 0
+-2.5V
+Text Label 1850 14600 2    12   ~ 0
+-2.5V
+Text Label 1850 14000 2    12   ~ 0
+-2.5V
+Text Label 1850 14100 2    12   ~ 0
+-2.5V
+Text Label 1850 14400 2    12   ~ 0
+-2.5V
+Text Label 1850 14300 2    12   ~ 0
+-2.5V
+Text Label 1850 14200 2    12   ~ 0
+-2.5V
+Text Label 1850 13800 2    12   ~ 0
+-2.5V
+Text Label 1850 13700 2    12   ~ 0
+-2.5V
+Text Label 2450 12200 0    12   ~ 0
+CIN4N
+Text Label 2450 12300 0    12   ~ 0
+CIN4P
+Text Label 2450 12400 0    12   ~ 0
+CIN3N
+Text Label 2450 12500 0    12   ~ 0
+CIN3P
+Text Label 2450 12600 0    12   ~ 0
+CIN2N
+Text Label 2450 12700 0    12   ~ 0
+CIN2P
+Text Label 2450 12800 0    12   ~ 0
+CIN1N
+Text Label 2450 12900 0    12   ~ 0
+CIN1P
+Text Label 2450 13000 0    12   ~ 0
+CSRB1
+Text Label 2450 13100 0    12   ~ 0
+CSRB2
+Text Label 2500 14400 0    12   ~ 0
+GND
+Text Label 2500 13800 0    12   ~ 0
+GND
+Text Label 2500 14300 0    12   ~ 0
+GND
+Text Label 2500 14200 0    12   ~ 0
+GND
+Text Label 2500 14000 0    12   ~ 0
+GND
+Text Label 2500 14600 0    12   ~ 0
+GND
+Text Label 2500 14500 0    12   ~ 0
+GND
+Text Label 2500 14100 0    12   ~ 0
+GND
+Text Label 2500 13900 0    12   ~ 0
 GND
 Text Label 2500 13700 0    12   ~ 0
--2.5V
-Text Label 2500 14500 0    12   ~ 0
--2.5V
-Text Label 2500 13900 0    12   ~ 0
--2.5V
-Text Label 2500 14300 0    12   ~ 0
--2.5V
-Text Label 2500 14100 0    12   ~ 0
--2.5V
-Text Label 1750 14550 2    12   ~ 0
--2.5V
-Text Label 1750 14350 2    12   ~ 0
--2.5V
-Text Label 1750 14150 2    12   ~ 0
--2.5V
-Text Label 1750 13950 2    12   ~ 0
--2.5V
-Text Label 1750 13750 2    12   ~ 0
--2.5V
-Text Label 1800 13700 2    12   ~ 0
-CIN4N
-Text Label 1800 13900 2    12   ~ 0
-CIN4P
-Text Label 1800 14100 2    12   ~ 0
-CIN3N
-Text Label 1800 14300 2    12   ~ 0
-CIN3P
-Text Label 1800 14500 2    12   ~ 0
-CIN2N
-Text Label 2500 14550 0    12   ~ 0
-CIN2P
-Text Label 2500 14350 0    12   ~ 0
-CIN1N
-Text Label 2500 14150 0    12   ~ 0
-CIN1P
-Text Label 2500 13950 0    12   ~ 0
-CSRB1
-Text Label 2500 13750 0    12   ~ 0
-CSRB2
-Text Label 2500 14450 0    12   ~ 0
 GND
-Text Label 2500 13650 0    12   ~ 0
-GND
-Text Label 2500 13850 0    12   ~ 0
-GND
-Text Label 2500 14250 0    12   ~ 0
-GND
-Text Label 2500 14050 0    12   ~ 0
-GND
-Text Label 1800 14600 0    12   ~ 0
-GND
-Text Label 1800 14400 0    12   ~ 0
-GND
-Text Label 1800 14200 0    12   ~ 0
-GND
-Text Label 1800 14000 0    12   ~ 0
-GND
-Text Label 1800 13800 0    12   ~ 0
-GND
-Wire Wire Line
-	11600 8950 11500 8950
-Text Label 11500 8950 2    20   ~ 0
+Text Label 11600 8950 2    20   ~ 0
 RN46CTS
 Wire Wire Line
 	11600 9050 11500 9050
-Wire Wire Line
-	11600 8850 11500 8850
-Text Label 11500 8850 2    20   ~ 0
+Text Label 11600 8850 2    20   ~ 0
 RN46RTS
 $Comp
 L LD39050PU33R:LD39050PU33R U3
@@ -3033,7 +2895,7 @@ Wire Wire Line
 	16250 10900 16250 11200
 Connection ~ 16250 11200
 Wire Wire Line
-	16250 11200 17650 11200
+	16250 11200 17100 11200
 Wire Wire Line
 	17650 10500 18150 10500
 Wire Wire Line
@@ -3746,8 +3608,6 @@ NoConn ~ 11600 7750
 NoConn ~ 11600 7650
 NoConn ~ 12200 7050
 Wire Wire Line
-	12700 7150 12700 6500
-Wire Wire Line
 	12800 6650 12800 7150
 NoConn ~ 13000 7150
 NoConn ~ 13100 7150
@@ -4310,7 +4170,6 @@ NoConn ~ 16150 8050
 NoConn ~ 16150 8150
 NoConn ~ 16150 8450
 NoConn ~ 16150 8650
-NoConn ~ 16150 8750
 NoConn ~ 16150 8950
 NoConn ~ 16150 9050
 NoConn ~ 16150 9150
@@ -4336,4 +4195,58 @@ NoConn ~ 13000 9450
 NoConn ~ 13100 9450
 NoConn ~ 13200 9450
 NoConn ~ 12000 9450
+$Comp
+L eeg-rescue:Electrode2-Electrode2 U8
+U 1 1 5F479367
+P 3000 12550
+F 0 "U8" H 2175 11685 50  0000 C CNN
+F 1 "Electrode2" H 2175 11594 50  0000 C CNN
+F 2 "ADS1299IPAG:openldhardware" H 2290 11560 50  0001 C CNN
+F 3 "" H 2180 11630 50  0001 C CNN
+	1    3000 12550
+	1    0    0    -1  
+$EndComp
+Text Label 1850 14500 2    12   ~ 0
+-2.5V
+Text Label 1800 12150 2    12   ~ 0
++2.5V
+$Comp
+L eeg-rescue:Electrode-Electrode-eeg-rescue-eeg-rescue U61
+U 1 1 5F474806
+P 1400 13250
+F 0 "U61" H 2125 14575 50  0000 C CNN
+F 1 "Electrode1" H 2125 14484 50  0000 C CNN
+F 2 "ADS1299IPAG:openldhardware" H 2400 13300 50  0001 C CNN
+F 3 "" H 2050 14525 50  0001 C CNN
+	1    1400 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 600CBAF1
+P 17100 11200
+F 0 "#PWR0114" H 17100 10950 50  0001 C CNN
+F 1 "GND" H 17200 11100 50  0000 C CNN
+F 2 "" H 17100 11200 50  0001 C CNN
+F 3 "" H 17100 11200 50  0001 C CNN
+	1    17100 11200
+	1    0    0    -1  
+$EndComp
+Connection ~ 17100 11200
+Wire Wire Line
+	17100 11200 17650 11200
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 600D775F
+P 15450 14100
+F 0 "#FLG0101" H 15450 14175 50  0001 C CNN
+F 1 "PWR_FLAG" H 15450 14273 50  0000 C CNN
+F 2 "" H 15450 14100 50  0001 C CNN
+F 3 "~" H 15450 14100 50  0001 C CNN
+	1    15450 14100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 11500 9050
+Wire Wire Line
+	12700 6650 12700 7150
 $EndSCHEMATC
