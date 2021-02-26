@@ -19,3 +19,4 @@ git clone "https://github.com/aliozcanunal/8-Channel-Wireless-EEG"
 
 kicad eeg.pro
 ```
+https://raw.githubusercontent.com/aliozcanunal/8-Channel-Wireless-EEG/master/eegV0.01.png
