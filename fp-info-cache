@@ -1,4 +1,4 @@
-19069684267382328
+19076133803389679
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50714,6 +50714,20 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ERA-3A
+OSCCC500X320X150N
+
+
+0
+4
+4
+ERA-3A
+RESC1608X55N
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -76299,6 +76313,13 @@ rotary encoder
 0
 5
 4
+STM32F446RET6
+QFP50P1200X1200X160-64N
+
+
+0
+64
+64
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -82970,3 +82991,10 @@ test
 0
 0
 0
+footprints
+EVQ-Q2K03W
+
+
+0
+4
+4
