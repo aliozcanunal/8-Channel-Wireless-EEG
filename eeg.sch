@@ -3388,8 +3388,6 @@ Connection ~ 6800 7850
 Connection ~ 7550 7750
 Wire Wire Line
 	7250 10850 7250 10700
-Wire Wire Line
-	7250 10700 7350 10700
 $Comp
 L power:GNDA #PWR0169
 U 1 1 6099D607
@@ -3401,7 +3399,6 @@ F 3 "" H 7250 10700 50  0001 C CNN
 	1    7250 10700
 	0    1    1    0   
 $EndComp
-Connection ~ 7250 10700
 Text Label 7450 10850 1    50   ~ 0
 SCLK
 Text Label 7650 10850 1    50   ~ 0
@@ -3416,8 +3413,6 @@ Text Label 8050 10850 1    50   ~ 0
 RESET
 Text Label 8150 10850 1    50   ~ 0
 PWDN
-Wire Wire Line
-	7350 10850 7350 10700
 Text Label 7550 10850 1    50   ~ 0
 CS
 Wire Wire Line
@@ -3792,10 +3787,12 @@ F 3 "" H 8600 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8150 1500 8600 1500
-Text GLabel 8650 1300 2    50   Input ~ 0
-SWCLK
 Text GLabel 8350 1400 2    50   Input ~ 0
+SWCLK
+Text GLabel 8650 1300 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
 	8150 1300 8650 1300
+Text Label 7350 10850 1    50   ~ 0
+DRDY
 $EndSCHEMATC
