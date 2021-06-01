@@ -1,4 +1,4 @@
-19204030174299446
+19208895767766888
 ADS1299IPAG1
 ADS1299IPAGR
 
@@ -56230,6 +56230,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LTC3866
+LTC3862HFE-2-PBF
+
+
+0
+25
+25
 Logo1
 Ali
 
@@ -82978,6 +82985,13 @@ Ali
 0
 0
 ali1
+Via 1.1mm
+
+
+0
+1
+1
+ali1
 ali1
 
 
@@ -82998,6 +83012,13 @@ test
 0
 0
 0
+ali1
+via1.11
+
+
+0
+1
+1
 footprints
 EVQ-Q2K03W
 
